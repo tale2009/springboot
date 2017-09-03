@@ -8,7 +8,7 @@ Appenders:
       - name: ROLLING_FILE
         ignoreExceptions: false
         fileName: /springboot/logs/springboot.log
-        filePattern: "/springboot/logs/$${date:yyyy-MM}/${project.name}-%d{yyyy-MM-dd}-%i.log.gz"
+        filePattern: "/springboot/logs/$${date:yyyy-MM}/springboot -%d{yyyy-MM-dd}-%i.log.gz"
         PatternLayout:
           pattern: "%d{yyyy-MM-dd HH:mm:ss,SSS}:%4p %t (%F:%L) - %m%n"
         Policies:
