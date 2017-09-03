@@ -21,7 +21,7 @@ Loggers:
       level: info
       AppenderRef:
         - ref: CONSOLE
-    Logger:
+    Logger: #单独设置某些包的输出级别
       - name: app.com.kenho.mapper #复数加上-
         additivity: false #去除重复的log
         level: trace
