@@ -1,0 +1,25 @@
+2017-09-03 09:17:31,262:DEBUG http-nio-80-exec-1 (BaseJdbcLogger.java:142) - ==>  Preparing: select id,username, password, state,userType from logininfo where username=? and password=? 
+2017-09-03 09:17:31,294:DEBUG http-nio-80-exec-1 (BaseJdbcLogger.java:142) - ==> Parameters: stephanie(String), 81DC9BDB52D04DC20036DBD8313ED055(String)
+2017-09-03 09:17:31,308:TRACE http-nio-80-exec-1 (BaseJdbcLogger.java:148) - <==    Columns: id, username, password, state, userType
+2017-09-03 09:17:31,309:TRACE http-nio-80-exec-1 (BaseJdbcLogger.java:148) - <==        Row: 20, stephanie, 81DC9BDB52D04DC20036DBD8313ED055, 0, 1
+2017-09-03 09:17:31,315:DEBUG http-nio-80-exec-1 (BaseJdbcLogger.java:142) - <==      Total: 1
+2017-09-03 09:20:08,601:DEBUG http-nio-80-exec-1 (BaseJdbcLogger.java:142) - ==>  Preparing: select id,username, password, state,userType from logininfo where username=? and password=? 
+2017-09-03 09:20:08,627:DEBUG http-nio-80-exec-1 (BaseJdbcLogger.java:142) - ==> Parameters: stephanie(String), 81DC9BDB52D04DC20036DBD8313ED055(String)
+2017-09-03 09:20:08,639:TRACE http-nio-80-exec-1 (BaseJdbcLogger.java:148) - <==    Columns: id, username, password, state, userType
+2017-09-03 09:20:08,640:TRACE http-nio-80-exec-1 (BaseJdbcLogger.java:148) - <==        Row: 20, stephanie, 81DC9BDB52D04DC20036DBD8313ED055, 0, 1
+2017-09-03 09:20:08,645:DEBUG http-nio-80-exec-1 (BaseJdbcLogger.java:142) - <==      Total: 1
+2017-09-03 09:20:10,186:DEBUG http-nio-80-exec-2 (BaseJdbcLogger.java:142) - ==>  Preparing: select id,username, password, state,userType from logininfo where username=? and password=? 
+2017-09-03 09:20:10,188:DEBUG http-nio-80-exec-2 (BaseJdbcLogger.java:142) - ==> Parameters: stephanie(String), 81DC9BDB52D04DC20036DBD8313ED055(String)
+2017-09-03 09:20:12,478:TRACE http-nio-80-exec-2 (BaseJdbcLogger.java:148) - <==    Columns: id, username, password, state, userType
+2017-09-03 09:20:12,479:TRACE http-nio-80-exec-2 (BaseJdbcLogger.java:148) - <==        Row: 20, stephanie, 81DC9BDB52D04DC20036DBD8313ED055, 0, 1
+2017-09-03 09:20:12,481:DEBUG http-nio-80-exec-2 (BaseJdbcLogger.java:142) - <==      Total: 1
+2017-09-03 09:29:24,157:DEBUG http-nio-80-exec-10 (BaseJdbcLogger.java:142) - ==>  Preparing: select id,username, password, state,userType from logininfo where username=? and password=? 
+2017-09-03 09:29:24,184:DEBUG http-nio-80-exec-10 (BaseJdbcLogger.java:142) - ==> Parameters: stephanie(String), 81DC9BDB52D04DC20036DBD8313ED055(String)
+2017-09-03 09:29:24,197:TRACE http-nio-80-exec-10 (BaseJdbcLogger.java:148) - <==    Columns: id, username, password, state, userType
+2017-09-03 09:29:24,198:TRACE http-nio-80-exec-10 (BaseJdbcLogger.java:148) - <==        Row: 20, stephanie, 81DC9BDB52D04DC20036DBD8313ED055, 0, 1
+2017-09-03 09:29:24,199:DEBUG http-nio-80-exec-10 (BaseJdbcLogger.java:142) - <==      Total: 1
+2017-09-03 09:36:58,866:DEBUG http-nio-80-exec-1 (BaseJdbcLogger.java:142) - ==>  Preparing: select id,username, password, state,userType from logininfo where username=? and password=? 
+2017-09-03 09:36:58,900:DEBUG http-nio-80-exec-1 (BaseJdbcLogger.java:142) - ==> Parameters: stephanie(String), 81DC9BDB52D04DC20036DBD8313ED055(String)
+2017-09-03 09:36:58,921:TRACE http-nio-80-exec-1 (BaseJdbcLogger.java:148) - <==    Columns: id, username, password, state, userType
+2017-09-03 09:36:58,921:TRACE http-nio-80-exec-1 (BaseJdbcLogger.java:148) - <==        Row: 20, stephanie, 81DC9BDB52D04DC20036DBD8313ED055, 0, 1
+2017-09-03 09:36:58,923:DEBUG http-nio-80-exec-1 (BaseJdbcLogger.java:142) - <==      Total: 1
