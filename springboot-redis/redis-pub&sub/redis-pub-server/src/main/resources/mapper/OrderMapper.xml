@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="redisdemo.mapper.OrderMapper">
+    <resultMap id="map" type="redisdemo.OrderPO">
+        <id column="order_id" property="orderId"/>
+        <result column="notes" property="notes"/>
+    </resultMap>
+    <select id="find" resultMap="map">
+        select order_id,notes,total_price,status,payment_time,ship_time,deal_time,
+        create_user_id,create_time,modify_user_id,modify_time
+        from eshop_order
+        where order_id=#{orderId}
+    </select>
+</mapper>
