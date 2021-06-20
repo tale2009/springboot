@@ -1,0 +1,13 @@
+server:
+  port: 9527
+
+dubbo:
+  application:
+    name: dubbo-consumer
+  registry:
+    address: zookeeper://localhost:21810
+  protocol:
+    name: dubbo
+    port: 20880
+  scan:
+    base-packages: springbootdubbo.controller
